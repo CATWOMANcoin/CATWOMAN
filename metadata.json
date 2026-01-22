@@ -1,0 +1,31 @@
+{
+  "name": "NYA7",
+  "symbol": "NYA7",
+  "description": "NYA7 is a meme coin. No roadmap. No guarantees. Not financial advice. DYOR.",
+  "image": "assets/img/logo.png",
+  "external_url": "https://REPLACE_ME_GITHUB_PAGES_URL",
+  "attributes": [
+    {
+      "trait_type": "Type",
+      "value": "Meme Coin"
+    },
+    {
+      "trait_type": "Theme",
+      "value": "Neon District 7"
+    },
+    {
+      "trait_type": "Roadmap",
+      "value": "None"
+    },
+    {
+      "trait_type": "Guarantees",
+      "value": "None"
+    }
+  ],
+  "links": {
+    "telegram": "https://t.me/REPLACE_ME",
+    "twitter": "https://x.com/REPLACE_ME",
+    "dexscreener": "https://dexscreener.com/solana/REPLACE_ME",
+    "pumpfun": "https://pump.fun/REPLACE_ME"
+  }
+}
