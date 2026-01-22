@@ -31,13 +31,13 @@
             <h2>Галерея</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="assets/images/catwoman-main.png" alt="Catwoman Main Pose">
+                    <img src="catwoman-main.png" alt="Catwoman Main Pose">
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/catwoman-pose1.jpg" alt="Catwoman Pose 1">
+                    <img src="catwoman-pose1.jpg" alt="Catwoman Pose 1">
                 </div>
                 <div class="gallery-item">
-                    <img src="assets/images/catwoman-pose2.jpg" alt="Catwoman Pose 2">
+                    <img src="catwoman-pose2.jpg" alt="Catwoman Pose 2">
                 </div>
             </div>
         </section>
@@ -54,4 +54,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
