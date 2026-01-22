@@ -1,0 +1,32 @@
+// Плавная прокрутка для навигации
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Анимация при загрузке страницы
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+    
+    // Анимация для галереи
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    galleryItems.forEach((item, index) => {
+        item.style.animationDelay = `${index * 0.1}s`;
+    });
+});
+
+// Эффект параллакса для героя
+window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+    const hero = document.querySelector('.hero');
+    hero.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+});

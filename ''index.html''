@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catwoman Anime Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">Catwoman ♡</div>
+        <nav>
+            <ul>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#about">О проекте</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Catwoman Anime Edition</h1>
+                <p>Сексуальная аниме-версия легендарной героини</p>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Галерея</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/images/catwoman-main.png" alt="Catwoman Main Pose">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/catwoman-pose1.jpg" alt="Catwoman Pose 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/catwoman-pose2.jpg" alt="Catwoman Pose 2">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>О проекте</h2>
+            <p>Этот проект создан для демонстрации аниме-стилизации персонажа Catwoman. Все изображения сгенерированы с помощью AI.</p>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>© 2023 Catwoman Anime Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
