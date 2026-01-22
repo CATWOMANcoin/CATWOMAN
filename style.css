@@ -1,0 +1,41 @@
+:root{--bg:#05060a;--text:#eef1f7;--muted:#9aa3b2;--line:#1b2030;--shadow:0 12px 34px rgba(0,0,0,.5)}
+*{box-sizing:border-box}
+body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--text);
+background:radial-gradient(900px 500px at 20% 10%, rgba(155,92,255,.14), transparent 60%),
+radial-gradient(900px 500px at 85% 0%, rgba(61,214,255,.12), transparent 55%),
+radial-gradient(700px 420px at 60% 90%, rgba(255,70,200,.10), transparent 55%),var(--bg)}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 18px 44px}
+.top{display:flex;gap:14px;align-items:center;justify-content:space-between;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:rgba(13,15,22,.65);backdrop-filter:blur(10px);box-shadow:var(--shadow)}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:46px;height:46px;border-radius:14px;border:1px solid var(--line);object-fit:cover;background:#0b0d12}
+.brand h1{margin:0;font-size:20px}
+.brand p{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.social{display:flex;flex-wrap:wrap;gap:8px;justify-content:flex-end}
+.chip{font-size:13px;padding:8px 10px;border-radius:999px;border:1px solid var(--line);text-decoration:none;color:var(--text);background:rgba(255,255,255,.03)}
+.hero{margin-top:18px;display:grid;grid-template-columns:1.15fr .85fr;gap:16px;padding:18px;border:1px solid var(--line);border-radius:22px;background:rgba(13,15,22,.55);backdrop-filter:blur(10px);box-shadow:var(--shadow)}
+.headline{margin:0;font-size:40px;line-height:1.05}
+.sub{margin:10px 0 0;color:var(--muted);font-size:16px;line-height:1.55;max-width:64ch}
+.sub strong{color:var(--text)}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 14px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.04);text-decoration:none;color:var(--text);font-weight:800}
+.btn.primary{background:linear-gradient(135deg, rgba(155,92,255,.24), rgba(61,214,255,.14));border-color:rgba(155,92,255,.6)}
+.note{margin-top:14px;padding:12px;border-radius:14px;border:1px dashed rgba(61,214,255,.35);background:rgba(61,214,255,.06);font-size:13px;line-height:1.5}
+.heroImg{width:100%;border-radius:18px;border:1px solid var(--line);object-fit:cover;box-shadow:var(--shadow)}
+.section{margin-top:16px;padding:16px;border:1px solid var(--line);border-radius:22px;background:rgba(13,15,22,.55);backdrop-filter:blur(10px);box-shadow:var(--shadow)}
+.h2{margin:0;font-size:18px}
+.p{margin:10px 0 0;color:var(--muted);line-height:1.6}
+.stats{margin-top:14px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.card{position:relative;padding:14px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03);min-height:92px}
+.label{font-size:12px;color:var(--muted)}
+.value{margin-top:6px;font-size:22px;font-weight:900}
+.hint{margin-top:4px;font-size:12px;color:var(--muted)}
+.mono{font-family:ui-monospace,Menlo,Monaco,Consolas,"Courier New",monospace;font-size:14px}
+.copy{position:absolute;right:10px;bottom:10px;padding:7px 10px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--text);cursor:pointer;font-weight:800;font-size:12px}
+.grid{margin-top:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.thumb{border-radius:18px;border:1px solid var(--line);overflow:hidden;background:#0b0d12}
+.thumb img{width:100%;height:220px;object-fit:cover;display:block}
+.links{margin-top:12px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.bigLink{padding:14px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03);text-decoration:none;color:var(--text);font-weight:900;text-align:center}
+.footer{margin-top:18px;padding-top:10px;border-top:1px solid rgba(255,255,255,.06)}
+.fine{margin:0;color:var(--muted);font-size:12px;line-height:1.55}
+@media (max-width:920px){.hero{grid-template-columns:1fr}.headline{font-size:34px}.stats{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}.links{grid-template-columns:1fr}.thumb img{height:240px}}
